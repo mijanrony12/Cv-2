@@ -1,0 +1,121 @@
+/* default design Starts from  here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+.container {
+  max-width: 1100px;
+  background-color: #e4f9f5;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: tomato;
+}
+.div-clear {
+  clear: both;
+}
+.common-hr {
+  border: 1px solid teal;
+  border-bottom: none;
+}
+/* default design ends from  here */
+
+/* contact section starts here */
+header img {
+  width: 150px;
+  height: 130px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  float: left;
+}
+.contact-item {
+  float: left;
+  padding: 30px;
+}
+.contact-details {
+  float: right;
+  padding: 30px;
+}
+.contact-details a {
+  text-decoration: none;
+  display: block;
+  color: tomato;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.contact-details a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+hr {
+  border: 2px solid teal;
+  border-bottom: none;
+}
+/* contact section ends here */
+
+/* personal info section starts here */
+.content {
+  padding: 10px;
+}
+.content-left {
+  float: left;
+  width: 30%;
+  padding: 15px 10px;
+}
+.content-right {
+  float: left;
+  width: 70%;
+}
+.content-right p {
+  font-size: 16px;
+  padding: 3px 0px;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+/* personal info section ends here */
+
+/* education section starts here */
+.right-left {
+  float: left;
+  width: 50%;
+}
+.right-right {
+  float: left;
+  width: 50%;
+}
+/* education section starts here */
+
+/* footer section starts here */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+footer p {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+/* footer section starts here */
